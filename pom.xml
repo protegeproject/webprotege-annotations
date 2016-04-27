@@ -15,7 +15,7 @@
 
 
 
-    <name>webprotege-annotations</name>
+    <name>${project.artifactId}</name>
 
     <description>webprotege-annotations is a library that provides common annotations for use in WebProtege</description>
     <url>https://github.com/protegeproject/webprotege-annotations</url>
