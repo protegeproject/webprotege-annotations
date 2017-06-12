@@ -51,11 +51,11 @@
     <!-- Protege libraries are hosted on Sonatype OSSRH (OSS Repository Hosting Service). -->
     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh-snapshot</id>
+            <id>sonatype-nexus-snapshots</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>ossrh-staging</id>
+            <id>sonatype-nexus-staging</id>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
