@@ -16,4 +16,9 @@ public @interface Card {
      */
     String id();
 
+    /**
+     * A human-readable title for the card.  This will be displayed in
+     * the user interface of WebProtege
+     */
+    String title();
 }
